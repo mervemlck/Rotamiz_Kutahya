@@ -203,12 +203,15 @@ summary:hover, summary:focus{color: #aebed1;}
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;  
+   
     position: relative;
     /* margin:0 auto; */
-     margin-bottom: -150px;
+     /* margin-bottom: -150px;
      margin-top: -150px;
-   
+     
+    */
+    border-radius: 18px; /* İstediğiniz border-radius değerini burada belirleyebilirsiniz */
+  overflow: hidden
     
   }
   
@@ -261,6 +264,7 @@ summary:hover, summary:focus{color: #aebed1;}
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;
+    height: 240px;
   }
   
   @keyframes fade {
@@ -269,7 +273,7 @@ summary:hover, summary:focus{color: #aebed1;}
   }
 
 section {
-    position: relative;
+    /* position: relative; */
     width: 100%;    
     height: 100vh;
    
