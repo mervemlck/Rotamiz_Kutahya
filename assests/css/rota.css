@@ -203,11 +203,9 @@ summary:hover, summary:focus{color: #aebed1;}
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;  
     position: relative;
     /* margin:0 auto; */
-     margin-bottom: -150px;
-     margin-top: -150px;
+     
    
     
   }
@@ -261,6 +259,7 @@ summary:hover, summary:focus{color: #aebed1;}
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;
+    height:250px;
   }
   
   @keyframes fade {
