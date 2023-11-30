@@ -5,7 +5,7 @@ body{
     font-family: 'Nunito', sans-serif;
   }
 .container{margin: 0 auto}
-
+.headermid{display: none;}
 .hamburgermenu
 {   padding: 8px 12px;
     text-decoration: none;
@@ -103,13 +103,13 @@ summary
 summary:hover, summary:focus{color: #aebed1;} 
 
 .cards
-{   display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 20px;
+{   
+
+    display:flex;
+    gap: 10px;
     align-content: center;
     width: auto;
     text-align: center;
-   
     
 }
 .sectionpart
@@ -143,14 +143,14 @@ summary:hover, summary:focus{color: #aebed1;}
     background: url('../img/cini-porselen.jpg') no-repeat ;
     background-position:center;
     background-size: cover;
-    gap: 62px
+    gap: 73px;
 }
 .section3
 {
     background: url('../img/germiyan-sokak.jpg') no-repeat ;
     background-position:top;
     background-size: cover;
-    gap: 130px;
+    gap: 130px; 
 
 }
 .section4
@@ -158,21 +158,21 @@ summary:hover, summary:focus{color: #aebed1;}
     background: url('../img/üniversite.jpg') no-repeat ;
     background-position:center;
     background-size: cover;
-    gap: 97px;
+    /* gap: 97px; */
 }
 .section5
 {
     background: url('../img/yemek\ .jpg') no-repeat ;
     background-position:center;
     background-size: cover;
-    gap: 75px;
+    /* gap: 75px; */
 }
 .section6
 {
     background: url('../img/folklor.jpg') no-repeat  ;
     background-position:center;
     background-size: cover;
-    gap: 83px;
+    /* gap: 83px; */
 
 }
 .section7
@@ -180,7 +180,7 @@ summary:hover, summary:focus{color: #aebed1;}
     background: url('../img/saat-kulesi.jpg') no-repeat ;
     background-position:top;
     background-size: cover;
-    gap: 91px;
+    /* gap: 91px; */
 
 }
 
@@ -211,7 +211,7 @@ summary:hover, summary:focus{color: #aebed1;}
      
     */
     border-radius: 18px; /* İstediğiniz border-radius değerini burada belirleyebilirsiniz */
-  overflow: hidden
+    overflow: hidden;
     
   }
   
@@ -357,6 +357,9 @@ section {
     margin-bottom: 16px;
    margin-left: 30px;
 } 
+.flogo {
+    display: block;
+}
 .logos
 {
     display: flex;
@@ -502,3 +505,280 @@ textarea.input-field {
             gap: 8px;
             align-self: stretch;
         }
+
+
+
+        @media (width >=768px){
+            .headermid{display: none;}
+        .header
+        {  
+            margin:16px 16px 30px 16px;
+        }
+        .headerright
+        {   
+            gap:15px;
+        }
+
+        .fade{
+            height:400px;
+        }
+        .sectionpart
+            {
+                margin:20px 20px 64px 20px;
+            }
+        .section, .section2,.section3,.section4,.section5,.section6,.section7
+        {  
+            
+            width: auto;
+            height: 190px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center; 
+            gap: 98px;
+            justify-content: space-around;
+        }
+        .section2{
+            gap:73px;
+        }
+        .section3{
+            gap:130px;
+        }
+        .cards
+        {   
+
+            display:flex;
+            gap: 10px;
+            width: auto;
+            text-align: center;
+           
+            
+        }
+        .card1 {
+            border-radius: 22px;
+            padding: 20px;
+            height: auto;
+            width: 130px;
+        }
+        section video
+        {
+                width: auto;
+                height: auto;
+
+            }
+            .contact-form {
+                display: grid;
+                grid-template-columns: repeat(2 ,1fr);
+                padding: 20px;
+                column-gap: 10px;
+                margin-left: 0;
+            }
+            .input-field {
+                background-color: #fff;
+                padding: 10px;
+                margin-block-end: 15px;
+                outline: none;
+                border-block-end: 2px solid transparent;
+                border-radius: 10px;
+                height: 50px;
+                
+                }
+                .contact-form .btn {
+                 margin:0; 
+                width: 110px;
+            
+                }
+
+                .footer {
+                    display: flex;
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    padding: 32px 16px;
+                    flex-direction: column;
+                    /* align-items: center; */
+                    color: #A5ACBA;
+                    background-color: #53798d;
+                    border-radius: 4px;
+                    /* margin-top: 38px; */
+                }
+                .footertop {
+                    display: grid;
+                    grid-template-columns: repeat(2 ,1fr);
+                }
+                
+                .flogo {
+                    display: block;
+                    margin-top: 20px;
+                }
+
+                .top-end{
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 30px;
+                    margin-top: 20px;
+                }
+    .linkscolumAll
+    {
+        margin-top: 20px;
+
+    }
+
+    }
+        
+    @media (width >1215px)
+    {
+        
+        .header
+        {  
+            margin:16px 40px 30px 40px;
+        }
+        .headermid{
+            display: flex;
+            gap:80px;
+            align-items: center;
+            list-style: none;
+              }
+
+              .headermid a{
+
+                text-decoration: none;
+                color:rgb(243, 244, 244);
+                font-family: 'Nunito', sans-serif;
+
+              };
+        .headerright
+        {   
+            gap:15px;
+        }
+        .sectionpart
+            {
+                margin:40px 50px 64px 50px;
+            }
+        .section, .section2,.section3,.section4,.section5,.section6,.section7
+        {  
+            
+            width: auto;
+            height: 330px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center; 
+            gap: 98px;
+            justify-content: space-around;
+        }
+        .section2{
+            gap:73px;
+        }
+        .section3{
+            gap:130px;
+        }
+        .baslik{
+            font-size:50px;
+        }
+        .faq{
+            margin:64px;
+        }
+        .faq-content h4
+        {
+            font-size:25px;
+        }
+        .faq-content summary
+        {
+            font-size: 18px;
+        }
+        .faq-inside
+        {
+            font-size: 18px;
+        }
+        .cards
+        {   
+
+            display:flex;
+            gap: 60px;
+            width: auto;
+            text-align: center;
+           
+            
+        }
+        .card1 {
+            border-radius: 25px;
+            padding: 27px;
+            height: auto;
+            width: 200px;
+            text-align: center;
+        }
+        section video
+        {
+               
+                height: auto;
+                width: 100%;
+
+            }
+            .fade{
+                height: 600px;
+            }
+            .contact-form {
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+                column-gap: 10px;
+                margin-left: 0;
+            }
+            .input-field {
+                background-color: #fff;
+                padding: 10px;
+                margin-block-end: 15px;
+                outline: none;
+                border-block-end: 2px solid transparent;
+                border-radius: 10px;
+                height: 80px;
+                width: 500px;
+                
+                }
+                .contact-form .btn {
+                 margin:0; 
+                width: 110px;
+                padding: 15px;
+            
+                }
+
+
+                .footer {
+                    display: flex;
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    padding: 32px 16px;
+                    flex-direction: column;
+                    /* align-items: center; */
+                    color: #A5ACBA;
+                    background-color: #53798d;
+                    border-radius: 4px;
+                    /* margin-top: 38px; */
+                }
+                .footertop {
+                    display: grid;
+                    grid-template-columns: repeat(3 ,1fr);
+                    column-gap: 30px;
+                }
+                
+                .flogo {
+                    display: block;
+                    margin-top: 20px;
+                }
+                .top-end{display: none;}
+
+                .top-end-footer{
+                    margin-top: 80px;
+                    text-align: center;
+            
+                }
+                .top-end-footer h4
+                {
+                    margin-bottom: 10px;
+                    color:rgb(243, 244, 244);
+                }
+    .linkscolumAll
+    {
+        margin-top: 20px;
+
+    }
+
+
+    }
