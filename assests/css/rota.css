@@ -328,7 +328,19 @@ summary:hover, summary:focus{color: #aebed1;}
     text-align: center;
   }
   
-
+  .content {
+    position: absolute;
+    bottom: 0;
+     background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    width: 100%;
+    padding: 30px;
+    font-size: 25px;
+    /* margin-bottom: 180px; */
+    /* text-align: center; */
+    /* display: flex; */
+}
 
   /* Fading animation */
   .fade {
