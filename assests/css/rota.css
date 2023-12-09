@@ -12,6 +12,13 @@ body{
     text-decoration: none;
     color:rgb(243, 244, 244);
 }
+.yasam {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 32px 8px;
+}
 
 .btn
 {   padding: 10px 15px;
@@ -28,65 +35,7 @@ body{
     outline: 0;
   }
   
-  .headermid ul {
-        display: flex;
-        margin: 0 10px;
-  }
-  .headermid  ul li:before {
-        background-color: #000000;
-        background-size: cover;
-        content: '';
-        height: 200px;
-        left: -65px;
-        opacity: 0;
-        position: absolute;
-        top: -90px;
-        transform: translateY(100px);
-        transition: opacity 0.5s ease,
-                                            transform 0.5s ease;
-        width: 200px;
-        z-index: -1;
-  }
-
-  .headermid  ul li:hover:before {
-        /* opacity: 0.5; */
-        transform: translateY(0);
-        transition-delay: 0.5s;
-  }
-  .headermid ul li {
-        list-style: none;
-         margin: 0 10px;
-        
-        position: relative;
-  }
-  .headermid ul li a {
-        display: block;
-        font-weight: 600;
-        height: 20px;
-        overflow: hidden;
-        position: relative;
-        text-decoration: none;
-        text-transform: uppercase;
-  }
-  .headermid ul li a span {
-        color: #ffffff;
-        display: block;
-        height: 100%;
-        transition: transform 0.5s ease;
-        width: 100%;
-  }
-  .headermid ul li a span:nth-child(1) {
-      color: rgb(243, 244, 244);
-  }
-  .headermid ul li:hover a span:nth-child(1) {
-        transform: translateY(-100%);
-  }
-  .headermid ul li a span:nth-child(2) {
-        color: #ffffff;
-  }
-  .headermid ul li:hover a span:nth-child(2) {
-        transform: translateY(-100%);
-  }
+    
 .header
 {  position:sticky;
     margin:16px 5px;
@@ -130,11 +79,12 @@ span
 {   font-weight: 700;
     line-height: 30px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 28px;
     display: flex;
     flex-direction: column;
     transition: 0.3s;
     color:rgb(243, 244, 244);
+    margin-bottom: 12px;
 }
     
 .overlay a:hover, .overlay a:focus {color: #aebed1;}
@@ -151,10 +101,11 @@ span
     text-align: center;
 }
 .faq-content-menu summary
-{   font-size: 22px;
+{   font-size: 28px;
     font-weight: 700;
     line-height: 30px; /* 150% */ 
     cursor: pointer;
+    margin-bottom: 12px;
 }
 
 
@@ -699,7 +650,7 @@ textarea.input-field {
         
         .header
         {  
-            margin:16px 40px 30px 0;
+            margin:16px 40px 12px 0;
         }
         .header .responimg
         {   display: block;
@@ -712,8 +663,61 @@ textarea.input-field {
             gap:60px;
             align-items: center;
             list-style: none;
-            margin-left: 250px;
-              }
+            margin-left: 250px; }
+        .headermid ul{
+            display: flex;
+            margin: 0 10px;}
+          
+        .headermid  ul li:before {
+        background-color: #000000;
+        background-size: cover;
+        content: '';
+        height: 200px;
+        left: -65px;
+        opacity: 0;
+        position: absolute;
+        top: -90px;
+        transform: translateY(100px);
+        transition: opacity 0.5s ease,transform 0.5s ease;
+        width: 200px;
+        z-index: -1; }
+        
+          .headermid  ul li:hover:before {
+                /* opacity: 0.5; */
+                transform: translateY(0);
+                transition-delay: 0.5s;  }
+          .headermid ul li {
+                list-style: none;
+                 margin: 0 10px;
+                 position: relative; }
+          .headermid ul li a {
+                display: block;
+                font-weight: 600;
+                height: 20px;
+                overflow: hidden;
+                position: relative;
+                text-decoration: none;
+                text-transform: uppercase;
+          }
+          .headermid ul li a span {
+                color: #ffffff;
+                display: block;
+                height: 100%;
+                transition: transform 0.5s ease;
+                width: 100%;
+          }
+          .headermid ul li a span:nth-child(1) {
+              color: rgb(243, 244, 244);
+          }
+          .headermid ul li:hover a span:nth-child(1) {
+                transform: translateY(-100%);
+          }
+          .headermid ul li a span:nth-child(2) {
+                color: #ffffff;
+          }
+          .headermid ul li:hover a span:nth-child(2) {
+                transform: translateY(-100%);
+          }
 
               .headermid a{
 
