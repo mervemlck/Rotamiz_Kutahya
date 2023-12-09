@@ -155,6 +155,7 @@ span
     font-weight: 700;
     line-height: 30px; /* 150% */ 
     cursor: pointer;
+ 
 }
 
 
@@ -163,6 +164,8 @@ summary
     font-weight: 700;
     line-height: 30px; /* 150% */ 
     cursor: pointer;
+    
+    
 }
 summary:hover, summary:focus{color: #aebed1;} 
 
