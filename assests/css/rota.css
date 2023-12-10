@@ -3,6 +3,7 @@ body{
 
     color:rgb(243, 244, 244);
     font-family: 'Nunito', sans-serif;
+   
   }
 .container{margin: 0 auto}
 .headermid{display: none;}
@@ -18,8 +19,37 @@ body{
     flex-direction: column;
     gap: 10px;
     margin: 32px 8px;
+    & div
+    {
+        margin-bottom: 64px;
+    }
+    & li{
+    
+    text-align: left;
+}   
+& h4
+{
+    font-size: 23px;
+    margin-bottom: 0;
 }
+    & h6{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    
+    & p {
+        font-size:18px;
+    };
+ }
 
+ .kutahyadayasam ,.ulasim , .iklim{
+    border: 2px solid orange;
+    background-color: #ac956c;
+    border-radius: 8px;
+    padding: 10px;
+ }
+ .ulasim{border: 2px solid #4b74cf; background-color: #3d507b;}
+ .iklim{border: 2px solid #aff95e; background-color: #1e6026;}
 
 .btn
 {   padding: 10px 15px;
@@ -106,9 +136,7 @@ span
     font-weight: 700;
     line-height: 30px; /* 150% */ 
     cursor: pointer;
- 
     margin-bottom: 12px;
- 
 }
 
 
@@ -559,6 +587,10 @@ textarea.input-field {
 
         .fade{
             height:400px;
+        }
+        .yasam
+        {
+           margin-inline: 32px;
         }
         .sectionpart
             {
