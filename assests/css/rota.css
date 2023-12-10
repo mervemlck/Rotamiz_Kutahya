@@ -113,8 +113,14 @@ span
     font-weight: 700;
     line-height: 30px; /* 150% */ 
     cursor: pointer;
+<<<<<<< HEAD
     margin-bottom: 12px;
 
+=======
+ 
+    margin-bottom: 12px;
+ 
+>>>>>>> 9f2bfc3fc68c9e983da26934def29b8d2029c32b
 }
 
 
