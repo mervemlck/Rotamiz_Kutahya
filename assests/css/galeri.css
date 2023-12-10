@@ -14,16 +14,16 @@ body {
 h1 {
     
     margin: 20px auto;
-    width: 550px;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-    border:10px outset #25bcb9;
+    border:6px outset #25bcb9;
     /* border-bottom: 20px #25bcb9; */
+    padding: 20px;
 }
 
 .container img {
-    width: 450px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     margin: 10px;
     border: 10px solid #fefae0;
     filter: grayscale(100%);
@@ -441,7 +441,8 @@ textarea.input-field {
 }
 
 @media (width >=768px){
-    .headermid{display: none;}
+    .headermid
+    {display: none;}
 .header
 {  
     margin:16px 16px 30px 16px;
@@ -450,24 +451,25 @@ textarea.input-field {
 {   
     gap:15px;
 }
-
-.fade{
-    height:400px;
+h1 {
+    
+    margin: 20px auto;
+    font-size: 35px;
+    text-align: center;
+    border:8px outset #25bcb9;
+    /* border-bottom: 20px #25bcb9; */
 }
+
 .container {
     display:grid;
     grid-template-columns: repeat(2,1fr);
     justify-content: center;
     align-items: center;
      margin: 0 auto;
+   
      margin-bottom: 32px;
 }
-section video
-{
-        width: auto;
-        height: auto;
 
-    }
     .contact-form {
         display: grid;
         grid-template-columns: repeat(2 ,1fr);
@@ -525,7 +527,6 @@ margin-top: 20px;
 }
 
 }
-
 @media (width >1215px)
 {
 .rimg{display: none;}
@@ -533,6 +534,22 @@ margin-top: 20px;
 .header
 {  
     margin:16px 40px 30px 0;
+}
+h1 {
+    
+    margin: 20px auto;
+    font-size: 40px;
+    text-align: center;
+    border:10px outset #25bcb9;
+    /* border-bottom: 20px #25bcb9; */
+}
+.container img {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    border: 10px solid #fefae0;
+    filter: grayscale(100%);
+    transition-duration: 1s;
 }
 .header .responimg
 {   display: block;
@@ -586,33 +603,7 @@ margin-top: 20px;
 {
     font-size: 18px;
 }
-.cards
-{   
 
-    display:flex;
-    gap: 60px;
-    width: auto;
-    text-align: center;
-   
-    
-}
-.card1 {
-    border-radius: 25px;
-    padding: 27px;
-    height: auto;
-    width: 200px;
-    text-align: center;
-}
-section video
-{
-       
-        height: auto;
-        width: 100%;
-
-    }
-    .fade{
-        height: 600px;
-    }
     .contact-form {
         display:flex;
         flex-direction: column;
