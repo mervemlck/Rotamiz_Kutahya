@@ -4,6 +4,17 @@ body {
     color: rgb(243, 244, 244);
     font-family: 'Nunito', sans-serif;
 
+   
+  }
+.container{margin: 0 auto}
+.headermid{display: none;}
+.responimg{display: none;}
+.top-end-footer{display: none;}
+.hamburgermenu
+{   padding: 8px 12px;
+    text-decoration: none;
+    color:rgb(243, 244, 244);
+
 }
 
 .container {
@@ -112,7 +123,8 @@ body {
 
 .btn {
     padding: 10px 15px;
-    background: #53798d;
+    /* background: #53798d; */
+    background: #1d8080;
     text-decoration: none;
     color: rgb(243, 244, 244);
     font-size: 12px;
@@ -121,7 +133,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #0c9fea;
+    background-color: #4dabab;
 }
 
 *:focus {
@@ -144,6 +156,7 @@ body {
 .headerright {
     display: flex;
     gap: 7px;
+    
 }
 
 
@@ -174,7 +187,7 @@ span {
     font-weight: 700;
     line-height: 30px;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 22px;
     display: flex;
     flex-direction: column;
     transition: 0.3s;
@@ -199,8 +212,12 @@ span {
     text-align: center;
 }
 
-.faq-content-menu summary {
-    font-size: 28px;
+
+
+
+.faq-content-menu summary
+{   font-size: 22px;
+
     font-weight: 700;
     line-height: 30px;
     /* 150% */
@@ -900,6 +917,7 @@ textarea.input-field {
         text-transform: uppercase;
     }
 
+
     .headermid ul li a span {
         color: #ffffff;
         display: block;
@@ -907,7 +925,34 @@ textarea.input-field {
         transition: transform 0.5s ease;
         width: 100%;
     }
+.cards{
+            display:flex;
+            gap: 60px;
+            width: auto;
+            text-align: center;
+           
+            
+        }
+        .card1 {
+            border-radius: 25px;
+            padding: 27px;
+            height: auto;
+            width: 200px;
+            text-align: center;
+        }
+        .overlay a{
+            font-size:28px;
+        }
+        .faq-content-menu summary {
+            font-size: 28px;
+        }   
+        section video
+        {
+               
+                height: auto;
+                width: 100%;
 
+            }
     .headermid ul li a span:nth-child(1) {
         color: rgb(243, 244, 244);
     }
@@ -982,7 +1027,9 @@ textarea.input-field {
     .faq-content h4 {
         font-size: 25px;
     }
-
+    .faq-content-menu summary {
+        font-size: 28px;
+    }
     .faq-content summary {
         font-size: 18px;
     }
@@ -991,30 +1038,8 @@ textarea.input-field {
         font-size: 18px;
     }
 
-    .cards {
-
-        display: flex;
-        gap: 60px;
-        width: auto;
-        text-align: center;
 
 
-    }
-
-    .card1 {
-        border-radius: 25px;
-        padding: 27px;
-        height: auto;
-        width: 200px;
-        text-align: center;
-    }
-
-    section video {
-
-        height: auto;
-        width: 100%;
-
-    }
 
     .fade {
         height: 600px;
@@ -1056,7 +1081,11 @@ textarea.input-field {
         flex-direction: column;
         /* align-items: center; */
         color: #A5ACBA;
-        background-color: #53798d;
+        /* background-color: #53798d; */
+        /* background-color: #8eda9b; */
+        /* background-color: #0c7c6c; */
+        /* background-color: #2a7f7f; */
+        background-color: #1d8080;
         border-radius: 4px;
         /* margin-top: 38px; */
     }
@@ -1072,22 +1101,28 @@ textarea.input-field {
         margin-top: 20px;
     }
 
-    .top-end {
-        display: none;
-    }
+      
+         .top-end {
+            display: none;
+        } 
 
-    .top-end-footer {
-        margin-top: 80px;
-        text-align: center;
 
-    }
+                .top-end-footer{
+                    display: block;
+                    margin-top: 80px;
+                    text-align: center;
+            
+                }
+               
+                .top-end-footer h4
+                {
+                    margin-bottom: 10px;
+                    color:rgb(243, 244, 244);
+                }
+            
+    .linkscolumAll
+    {
 
-    .top-end-footer h4 {
-        margin-bottom: 10px;
-        color: rgb(243, 244, 244);
-    }
-
-    .linkscolumAll {
         margin-top: 20px;
 
     }
