@@ -6,6 +6,7 @@ body {
 
    
   }
+  /*rotalar başlangıç*/
   .rotalar{
     display: flex;
     flex-direction: column;
@@ -13,248 +14,189 @@ body {
 }
 .rotalar img{
     border-radius: 15px;
+    margin-bottom: 20px;
+    
      
  }
  .aizanoi{
-   margin-left:30px ;
-    display: flex;
-    gap: 20px;
-    text-indent: 15px;
     margin-top: 10px;
-   
+    margin-inline: 30px;
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
     
 }
 
-.aizonaitarih h3 {
-   margin-left: 200px;
-  
-}
 
-
-.cinilicamitarih {
-    margin-bottom: 50px;
-    
-}
-.cinilicamitarih h3 {
-    margin-left: 250px;
-    
-}
 
 .cinilicami {
-    margin-inline: 30px;
     display: flex;
-    gap: 20px;
-    text-indent: 15px;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    margin-inline: 30px;
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}0
 }
 
 .cinimuzesi{
-    margin-left:30px ;
-     display: flex;
-     gap: 20px;
-     text-indent: 15px;
+    margin-top: 10px;
+    margin-inline: 30px;
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
  }
  
- .cinimuzesitarih h3 {
-    margin-left: 250px;
- 
- }
 
-
- .ulucamitarih {
-    margin-bottom: 50px;
-    
-}
-.ulucamitarih h3 {
-    margin-left: 250px;
-    
-}
 
 .ulucami {
-    margin-inline: 30px;
     display: flex;
-    gap: 20px;
-    text-indent: 15px;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    margin-inline: 30px;
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
 }
 
 
 .germiyansokagi{
-    margin-inline:30px ;
-     display: flex;
-     gap: 20px;
-     text-indent: 15px;
+    margin-top: 10px;
+    margin-inline: 30px;
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
  }
  
- .germiyansokagitarih h3 {
-    margin-left: 250px;
- 
- }
- 
- 
- .donenlercamitarih {
-     margin-bottom: 50px;
-     
- }
- .donenlercamitarih h3 {
-     margin-left: 240px;
-     
- }
+
  
  .donenlercami {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
     margin-inline: 30px;
-     display: flex;
-     gap: 20px;
-     text-indent: 15px;
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
  }
 
  .kutahyakalesi{
+    margin-top: 10px;
     margin-inline: 30px;
-     display: flex;
-     gap: 20px;
-     text-indent: 15px;
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
  }
  
- .kutahyakalesitarih h3 {
-    margin-left: 250px;
- 
- }
- 
- 
- .arkeolojimuzesitarih {
-     margin-bottom: 50px;
-     
- }
- .arkeolojimuzesitarih h3 {
-     margin-left: 230px;
-     
- }
+
  
  .arkeolojimuzesi {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
     margin-inline: 30px;
-     display: flex;
-     gap: 20px;
-     text-indent: 15px;
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
  }
  
  .frigvadisi{
+    margin-top: 10px;
     margin-inline: 30px;
-     display: flex;
-     gap: 20px;
-     text-indent: 15px;
- }
- 
- .frigvadisitarih h3 {
-    margin-left: 250px;
- 
- }
- 
- 
- .domanicormanlaritarih {
-     margin-bottom: 50px;
-     
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
  }
 
- .domanicormanlaritarih h3{
-   
-    margin-left: 220px;
-}
 
  .domanicormanlari {
-     margin-inline: 30px;
-     display: flex;
-     gap: 20px;
-     text-indent: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    margin-inline: 30px;
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+     
  }
 
  .yedigoller{
+    margin-top: 10px;
     margin-inline: 30px;
-     display: flex;
-     gap: 20px;
-     text-indent: 15px;
- }
- 
- .yedigollertarih h3 {
-    margin-left: 250px;
- 
- }
- 
- 
- .donergazinotarih {
-     margin-bottom: 50px;
-     
- }
- .donergazinotarih h3 {
-     margin-left: 240px;
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
      
  }
  
  .donergazino {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
     margin-inline: 30px;
-     display: flex;
-     gap: 20px;
-     text-indent: 15px;
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
  }
 
 
  .camlicatabiatparki{
+    margin-top: 10px;
     margin-inline: 30px;
-     display: flex;
-     gap: 20px;
-     text-indent: 15px;
- }
- 
- .camlicatabiatparkitarih h3 {
-    margin-left: 230px;
- 
- }
- 
- 
- .ennebarajitarih {
-     margin-bottom: 50px;
-     
- }
- .ennebarajitarih h3 {
-     margin-left: 250px;
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
      
  }
  
  .ennebaraji {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
     margin-inline: 30px;
-     display: flex;
-     gap: 20px;
-     text-indent: 15px;
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+     
  }
 
 
  .eynalkaplicalari{
+    margin-top: 10px;
     margin-inline: 30px;
-     display: flex;
-     gap: 20px;
-     text-indent: 15px;
- }
- 
- .eynalkaplicalaritarih h3 {
-    margin-left: 225px;
- 
- }
- 
- 
- .yoncalitermaloteltarih {
-     margin-bottom: 50px;
-     
- }
- .yoncalitermaloteltarih h3 {
-     margin-left: 220px;
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
      
  }
  
  .yoncalitermalotel {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
     margin-inline: 30px;
-     display: flex;
-     gap: 20px;
-     text-indent: 15px;
+   & h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
  }
 
- 
+ /*rotalar bitti*/
  
 /* -------------------------------- */
   .footer-bottom {
@@ -287,159 +229,7 @@ body {
 .container {
     margin: 0 auto
 }
-
-.headermid {
-    display: none;
-}
-
-.responimg {
-    display: none;
-}
-
-.hamburgermenu {
-    padding: 8px 12px;
-    text-decoration: none;
-    color: rgb(243, 244, 244);
-
-}
-.cpbaslik
-{
-    text-align: center;
-    margin: 32px 0 16px 0 ;
-
-}
-.ciniporselen{
-    display: grid;
-    grid-template-columns: repeat(1 ,1fr);
-    align-content: center;
-    justify-content: center;
-    margin: 12px 12px;
-    text-align: center;
-    row-gap: 20px;
- 
-    & .cini , .porselen
-    {
-        border: 2px solid #b72b3e;
-        background-color: #b9101059;
-        border-radius: 5px;
-        padding: 15px;
-
-        & h3
-        {
-            margin-bottom: 10px;
-        }
-
-    }
-    & .porselen{
-        border: 2px solid #237580;
-        background-color: #165153c2;
-    }
-
-}
-
-.yasam {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin: 32px 8px;
-
-    & .kutahyadayasam,
-    .iklim,
-    .ulasim {
-        margin-bottom: 70px;
-    }
-
-    & li {
-
-        text-align: left;
-        list-style: none;
-    }
-
-    & h4 {
-        font-size: 23px;
-        margin-bottom: 0;
-    }
-
-    & h6 {
-        font-size: 25px;
-        margin-bottom: 0;
-    }
-
-    & p {
-        font-size: 18px;
-    }
-}
-
-
-
-.row {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.column {
-    float: left;
-    padding: 5px;
-    margin-block: 40px;
-
-}
-
-.column img {
-    border: 1px solid #ddd;
-    border-radius: 50px;
-    padding: 5px;
-    width: 70px;
-    height: 150px;
-}
-
-.column img:hover {
-    box-shadow: 0 0 2px 1px rgba(1, 24, 32, 0.5);
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.kutahyadayasam,
-.ulasim,
-.iklim {
-    border: 2px solid rgb(240, 64, 58);
-    background-color: #c5867c;
-    border-radius: 8px;
-    padding: 10px;
-}
-
-.ulasim {
-    border: 2px solid #6aeed4;
-    background-color: #158982;
-}
-
-.iklim {
-    border: 2px solid #aff95e;
-    background-color: #0c8758;
-}
-.btn {
-    padding: 10px 15px;
-    background: #1d8080;
-    text-decoration: none;
-    color: rgb(243, 244, 244);
-    font-size: 12px;
-    border-radius: 16px;
-
-}
-
-.btn:hover {
-    background-color: #4dabab;
-}
-
-*:focus {
-    outline: 0;
-}
-
-
+/*header başlangıç*/
 .header {
     position: sticky;
     margin: 16px 5px;
@@ -541,7 +331,164 @@ summary:hover,
 summary:focus {
     color: #aebed1;
 }
+.headermid {
+    display: none;
+}
 
+.responimg {
+    display: none;
+}
+
+.hamburgermenu {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: rgb(243, 244, 244);
+
+}
+/*------------------------------------------------------çini porselen başlangıç-----------------------------------------------*/
+.cpbaslik
+{
+    text-align: center;
+    margin: 32px 0 16px 0 ;
+
+}
+.ciniporselen{
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    align-content: center;
+    justify-content: center;
+    margin: 12px 12px 80px 12px;
+    text-align: center;
+    row-gap: 20px;
+ 
+    & .cini , .porselen
+    {
+        border: 2px solid #b72b3e;
+        background-color: #b9101059;
+        border-radius: 5px;
+        padding: 15px;
+
+        & h3
+        {
+            margin-bottom: 10px;
+        }
+
+    }
+    & .porselen{
+        border: 2px solid #237580;
+        background-color: #165153c2;
+    }
+
+}
+/*------------------------------------------------------çini porselen bitiş--------------------------------------------------------------------*/
+/*----------------------------------------yaşam başlangıç------------------------------------------------------------------------------------------*/
+
+.yasam {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 32px 8px;
+
+    & .kutahyadayasam,
+    .iklim,
+    .ulasim {
+        margin-bottom: 70px;
+    }
+
+    & li {
+
+        text-align: left;
+        list-style: none;
+    }
+
+    & h4 {
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+
+    & h6 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    & p {
+        font-size: 18px;
+        padding:27px;
+    }
+}
+
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.column {
+    float: left;
+    padding: 5px;
+    margin-block: 40px;
+
+}
+
+.column img {
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 5px;
+    width: 70px;
+    height: 150px;
+}
+
+.column img:hover {
+    box-shadow: 0 0 2px 1px rgba(1, 24, 32, 0.5);
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+.kutahyadayasam,
+.ulasim,
+.iklim {
+    border: 2px solid rgb(240, 64, 58);
+    background-color: #c5867c;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.ulasim {
+    border: 2px solid #6aeed4;
+    background-color: #158982;
+}
+
+.iklim {
+    border: 2px solid #aff95e;
+    background-color: #0c8758;
+}
+/*--------------------------------------------------yaşam bitiş----------------------------------------------------------------------------------*/
+/*--------------------------------header buton---------------------------------------------------------------------*/
+.btn {
+    padding: 10px 15px;
+    background: #1d8080;
+    text-decoration: none;
+    color: rgb(243, 244, 244);
+    font-size: 12px;
+    border-radius: 16px;
+
+}
+
+.btn:hover {
+    background-color: #4dabab;
+}
+
+*:focus {
+    outline: 0;
+}
+/*------------------header buton----------------------------------*/
+
+
+/*------------------------------------anasayfa kartları-----------------------------------*/
 .cards {
 
     display: flex;
@@ -657,9 +604,9 @@ summary:focus {
     text-decoration: none;
     color: #fff;
 }
+/*------------------------------------anasayfa kartları-----------------------------------*/
 
-
-/* Slideshow container */
+/* -----------------------------------------------------Slideshow container -----------------------------------------------------*/
 .slideshow-container {
 
     position: relative;
@@ -805,7 +752,8 @@ section .navigation li img:hover {
     width: 200px;
 
 }
-
+/* -----------------------------------------------------Slideshow container -----------------------------------------------------*/
+/*--------------------------------footer başlangıç----------------------------------------------*/
 .footer {
     display: flex;
     padding: 32px 16px;
@@ -912,7 +860,18 @@ section .navigation li img:hover {
     padding: 11px;
     border-radius: 4px;
     margin-right: 20px;
+
 }
+.footerbottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    color:#e2e9f7;
+}
+/*-------------------------footer bitiş-------------------------------------------------------*/
+/*------------------------------------------------------SSS--------------------------------------------------*/
 
 .faq {
     /* width: 1110px;
@@ -949,6 +908,8 @@ section .navigation li img:hover {
     font-size: 10px;
 }
 
+/*------------------------------------------------------SSS--------------------------------------------------*/
+/*---------------------------------------BİZE YAZIN---------------------------------------------------------*/
 .wrapper {
     display: grid;
 
@@ -1027,14 +988,7 @@ textarea.input-field {
     color: #53798d;
 }
 
-.footerbottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    align-self: stretch;
-    color:#e2e9f7;
-}
+
 
 
 
@@ -1143,7 +1097,6 @@ textarea.input-field {
         flex-direction: column;
         /* align-items: center; */
         color: #A5ACBA;
-        background-color: #53798d;
         border-radius: 4px;
         /* margin-top: 38px; */
     }
@@ -1188,7 +1141,272 @@ textarea.input-field {
            
 
         }
+        .rotalar{
+            display: flex;
+            flex-direction: column;
+            gap:70px;
+            & p{
+                padding: 10px;
+            }
+        }
+        .rotalar img{
+            border-radius: 15px;
+             
+         }
+         .aizanoi{
+           margin-left:30px ;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            text-indent: 15px;
+            margin-top: 20px;
+           
+            
+        }
         
+        .aizonaitarih h3 {
+           margin-left: 200px;
+          
+        }
+        
+        
+        .cinilicamitarih {
+            margin-bottom: 50px;
+            
+        }
+        .cinilicamitarih h3 {
+            margin-left: 250px;
+            
+        }
+        
+        .cinilicami {
+            margin-inline: 30px;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            text-indent: 15px;
+        }
+        
+        .cinimuzesi{
+            margin-left:30px ;
+             display: flex;
+             flex-direction: row;
+             gap: 20px;
+             text-indent: 15px;
+         }
+         
+         .cinimuzesitarih h3 {
+            margin-left: 250px;
+         
+         }
+        
+        
+         .ulucamitarih {
+            margin-bottom: 50px;
+            
+        }
+        .ulucamitarih h3 {
+            margin-left: 250px;
+            
+        }
+        
+        .ulucami {
+            margin-inline: 30px;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            text-indent: 15px;
+        }
+        
+        
+        .germiyansokagi{
+            margin-inline:30px ;
+             display: flex;
+             flex-direction: row;
+             gap: 20px;
+             text-indent: 15px;
+         }
+         
+         .germiyansokagitarih h3 {
+            margin-left: 250px;
+         
+         }
+         
+         
+         .donenlercamitarih {
+             margin-bottom: 50px;
+             
+         }
+         .donenlercamitarih h3 {
+             margin-left: 240px;
+             
+         }
+         
+         .donenlercami {
+            margin-inline: 30px;
+             display: flex;
+             flex-direction: row;
+             gap: 20px;
+             text-indent: 15px;
+         }
+        
+         .kutahyakalesi{
+            margin-inline: 30px;
+             display: flex;
+             flex-direction: row;
+             gap: 20px;
+             text-indent: 15px;
+         }
+         
+         .kutahyakalesitarih h3 {
+            margin-left: 250px;
+         
+         }
+         
+         
+         .arkeolojimuzesitarih {
+             margin-bottom: 50px;
+             
+         }
+         .arkeolojimuzesitarih h3 {
+             margin-left: 230px;
+             
+         }
+         
+         .arkeolojimuzesi {
+            margin-inline: 30px;
+             display: flex;
+             flex-direction: row;
+             gap: 20px;
+             text-indent: 15px;
+         }
+         
+         .frigvadisi{
+            margin-inline: 30px;
+             display: flex;
+             flex-direction: row;
+             gap: 20px;
+             text-indent: 15px;
+         }
+         
+         .frigvadisitarih h3 {
+            margin-left: 250px;
+         
+         }
+         
+         
+         .domanicormanlaritarih {
+             margin-bottom: 50px;
+             
+         }
+        
+         .domanicormanlaritarih h3{
+           
+            margin-left: 220px;
+        }
+        
+         .domanicormanlari {
+             margin-inline: 30px;
+             display: flex;
+             flex-direction: row;
+             gap: 20px;
+             text-indent: 15px;
+         }
+        
+         .yedigoller{
+            margin-inline: 30px;
+             display: flex;
+             flex-direction: row;
+             gap: 20px;
+             text-indent: 15px;
+         }
+         
+         .yedigollertarih h3 {
+            margin-left: 250px;
+         
+         }
+         
+         
+         .donergazinotarih {
+             margin-bottom: 50px;
+             
+         }
+         .donergazinotarih h3 {
+             margin-left: 240px;
+             
+         }
+         
+         .donergazino {
+            margin-inline: 30px;
+             display: flex;
+             flex-direction: row;
+             gap: 20px;
+             text-indent: 15px;
+         }
+        
+        
+         .camlicatabiatparki{
+            margin-inline: 30px;
+             display: flex;
+             flex-direction: row;
+             gap: 20px;
+             text-indent: 15px;
+         }
+         
+         .camlicatabiatparkitarih h3 {
+            margin-left: 230px;
+         
+         }
+         
+         
+         .ennebarajitarih {
+             margin-bottom: 50px;
+             
+         }
+         .ennebarajitarih h3 {
+             margin-left: 250px;
+             
+         }
+         
+         .ennebaraji {
+            margin-inline: 30px;
+             display: flex;
+             flex-direction: row;
+             gap: 20px;
+             text-indent: 15px;
+         }
+        
+        
+         .eynalkaplicalari{
+            margin-inline: 30px;
+             display: flex;
+             flex-direction: row;
+             gap: 20px;
+             text-indent: 15px;
+         }
+         
+         .eynalkaplicalaritarih h3 {
+            margin-left: 225px;
+         
+         }
+         
+         
+         .yoncalitermaloteltarih {
+             margin-bottom: 50px;
+             
+         }
+         .yoncalitermaloteltarih h3 {
+             margin-left: 220px;
+             
+         }
+         
+         .yoncalitermalotel {
+            margin-inline: 30px;
+             display: flex;
+             flex-direction: row;
+             gap: 20px;
+             text-indent: 15px;
+         }
         .header {
             
            
@@ -1206,15 +1424,15 @@ textarea.input-field {
 
     .headermid {
         display: flex;
-        gap: 60px;
+        /* gap: 60px; */
         align-items: center;
         list-style: none;
-        margin-left: 250px;
+        margin-left: 360px;
 
     }
     .headerright {
         gap: 15px;
-        margin-left: 430px;
+        margin-left: 50px;
     }
 
     .headermid ul {
