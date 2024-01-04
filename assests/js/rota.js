@@ -1,19 +1,19 @@
 
 filterSelection("all");
 function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-  }
-  
-  function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
-  }
+  document.getElementById("myNav").style.height = "100%";
+}
 
-function videoUrl(aaa){
-  document.getElementById("slider").src =aaa;
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
 
-  }
+function videoUrl(aaa) {
+  document.getElementById("slider").src = aaa;
 
-  let slideIndex = 1;
+}
+
+let slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -29,15 +29,15 @@ function currentSlide(n) {
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
- 
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+
+  if (n > slides.length) { slideIndex = 1 }
+  if (n < 1) { slideIndex = slides.length }
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
 
-  slides[slideIndex-1].style.display = "block";
- 
+  slides[slideIndex - 1].style.display = "block";
+
 }
 
 function filterSelection(c) {
@@ -73,9 +73,15 @@ function w3RemoveClass(element, name) {
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btnn");
 for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
+  btns[i].addEventListener("click", function () {
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
   });
+}
+
+function playMusic(songSrc) {
+  var audioPlayer = document.getElementById("audio-player");
+  audioPlayer.src = songSrc;
+  audioPlayer.play();
 }

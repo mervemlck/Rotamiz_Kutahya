@@ -173,6 +173,7 @@ body {
 }
 .copyright {
     font-size: 18px;
+    text-align: center;
 }
 /* -------------------------------- */
 .top-end-footer{display: none;}
@@ -418,6 +419,166 @@ summary:focus {
     border: 2px solid #aff95e;
     background-color: #0c8758;
 }
+/******meshur lezzetllerr************/
+
+
+.meshurlezzetler {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    margin-left: 60px;
+    gap: 15px;    
+  }
+  .yemekbaslik {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+   
+  .meshurlezzetler img {
+        width:250px;
+        height:150px;
+  }
+
+.sinimantisi , .cimcik, .sibit, .dolamber, .hashasli,
+.ilibada, .tirit, .gokcumen, .sıkıcık, .tosunum, .tarhana, .kupkebab,
+.dovmec, .govec, .incirtatli,.yufkatatlisi, .gelincikvegul, .hosaf{
+    position: relative;
+    margin-bottom: 20px; }
+
+  
+ .imagee {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+    border: 4px solid #ddd;
+  }
+  
+ .overlayy {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 110%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #52bdb6;
+    border-radius: 40px;
+  }
+
+  
+  .sinimantisi:hover .overlayy,.cimcik:hover .overlayy,.sibit:hover .overlayy,.dolamber:hover .overlayy ,.hashasli:hover .overlayy,.ilibada:hover .overlayy, .tirit:hover .overlayy,.gokcumen:hover .overlayy,.tosunum:hover .overlayy
+  ,.sıkıcık:hover .overlayy,.tarhana:hover .overlayy,.kupkebab:hover .overlayy,.dovmec:hover .overlayy ,.govec:hover .overlayy,.incirtatli:hover .overlayy,.yufkatatlisi:hover .overlayy,.gelincikvegul:hover .overlayy,.hosaf:hover .overlayy {
+    opacity: 1;
+    border-radius: 40px;
+    margin-right: 15px;
+    
+  }
+  
+.textt {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+
+/******************/
+/******ilçe ve köyler**************/
+
+.ilcelerbaslik {
+    
+     text-align: center;
+     margin-bottom: 30px; 
+     margin-top: 30px;
+ }
+ 
+ 
+ .koyler {
+     padding: 15px;
+     
+   }
+ 
+ .ilceler {
+     display: flex;
+     /* gap: 60px; */
+     width: 350px;
+     background:#20202f;
+     border-radius: 39px;
+     box-shadow: 0 0 20px 0 #fff;
+     align-items: center;
+     list-style: none;
+     margin:25px 0 25px 9px;
+     padding: 15px;
+  
+ 
+ }
+ 
+ 
+ .ilceler ul {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     margin: 0 10px;
+ }
+ 
+     .ilceler  ul li:before {
+ 
+     background-color: #000000;
+     background-size: cover;
+     content: '';
+     height: 100px;
+     left: -65px;
+     opacity: 0;
+     position: absolute;
+     top: -90px;
+     transform: translateY(100px);
+     transition: opacity 0.5s ease, transform 0.5s ease;
+     width: 200px;
+     z-index: -1;
+ }
+ 
+ .ilceler ul li:hover:before {
+   
+     transform: translateY(0);
+     transition-delay: 0.5s;
+ }
+ 
+ .ilceler ul li {
+     list-style: none;
+     margin: 0 10px;
+     position: relative;
+ }
+ 
+ .ilceler ul li a {
+     display: block;
+     font-weight: bold;
+     font-size: 12px;
+     height: 20px;
+     overflow: hidden;
+     position: relative;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+ 
+ 
+ .ilceler ul li a span {
+     color: #ffffff;
+     display: block;
+     height: 100%;
+     transition: transform 0.5s ease;
+     width: 100%;
+ }
+ 
+ /*************************/
 /*--------------------------------------------------yaşam bitiş----------------------------------------------------------------------------------*/
 /*--------------------------------header buton---------------------------------------------------------------------*/
 .btn {
@@ -628,7 +789,7 @@ summary:focus {
     padding: 30px;
     font-size: 25px;
     /* margin-bottom: 180px; */
-    /* text-align: center; */
+     text-align: center; 
     /* display: flex; */
 }
 
@@ -867,7 +1028,7 @@ section .navigation li img:hover {
 
    
     
-    background-color: #4e5ca3;
+    background-color: #81aaa6;
     margin: 35px;
     border-radius: 10px;
     
@@ -883,11 +1044,18 @@ section .navigation li img:hover {
 
 
 .contact-form {
+   
     padding: 20px;
     border-radius: 4px;
     
     
    
+}
+.dene
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
 }
 
 .input-field {
@@ -1016,7 +1184,55 @@ textarea.input-field {
         height: auto;
 
     }
-
+    .ilcelerbaslik {
+    
+        text-align: center;
+        font-size: 18x;
+        margin-bottom: 30px; 
+        margin-top: 30px;
+    }
+    .ilceler {
+        display: flex;
+        /* gap: 60px; */
+        width: 700px;
+        background:#20202f;
+        border-radius: 39px;
+        box-shadow: 0 0 20px 0 #fff;
+        align-items: center;
+        list-style: none;
+        margin:25px 0 25px 30px;
+        padding: 15px;
+     
+    
+    }
+    .ilceler ul {
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        margin: 0 10px;
+    }
+    .meshurlezzetler {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 87%;
+        gap: 15px;
+    }
+    .meshurlezzetler img {
+        width: 290px;
+        height: 165px;
+    }
+    .overlayy {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 90%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #52bdb6;
+        border-radius: 40px;
+    }
     .contact-form {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1085,6 +1301,154 @@ textarea.input-field {
     .rimg {
         display: none;
     }
+/******yöresel kıyafetler******/
+
+
+.yoreselbaslik {
+    display: inline-block;
+     width: 100%;
+     text-align: center;
+     margin-bottom: 40px;
+    
+    
+     
+ }
+ 
+
+ .yoreselkiyafetler{
+    padding: 30px;
+
+   
+    & img {
+        border-radius: 30px;
+        margin-left: 120px;
+        width:400px;
+        height:450px;}
+
+ }
+ .yoreselkiyafetler p
+ {
+        padding-inline: 60px;
+ }
+ .gelinkiyafeti{
+
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    & p{
+        padding: 10px;
+    }
+}
+    
+ .tefebasitanim {
+    margin-bottom: 50px;
+    
+}
+.tefebasitanim h3 {
+    margin-left: 370px;
+    
+}
+
+.tefebasi {
+    margin-inline: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-indent: 15px;
+}
+
+
+.pullutanim {
+    margin-bottom: 50px;
+    
+}
+.pullutanim h3 {
+    margin-left: 380px;
+    
+}
+
+.pullu {
+    margin-inline: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-indent: 15px;
+}
+
+
+
+.dizibaglitanim {
+    margin-bottom: 50px;
+    
+}
+.dizibaglitanim h3 {
+    margin-left: 370px;
+    
+}
+
+.dizibagli {
+    margin-inline: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-indent: 15px;
+}
+
+
+
+.catkilitanim {
+    margin-bottom: 50px;
+    
+}
+.catkilitanim h3 {
+    margin-left: 370px;
+    
+}
+
+.catkili {
+    margin-inline: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-indent: 15px;
+}
+
+
+
+.egrimlitanim {
+    margin-bottom: 50px;
+    
+}
+.egrimlitanim h3 {
+    margin-left: 370px;
+    
+}
+
+.egrimli {
+    margin-inline: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-indent: 15px;
+}
+
+
+.dallitanim {
+    margin-bottom: 50px;
+    
+}
+.dallitanim h3 {
+    margin-left: 370px;
+    
+}
+
+.dalli {
+    margin-inline: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-indent: 15px;
+}
 
  .ciniporselen
         {
@@ -1116,20 +1480,14 @@ textarea.input-field {
             
         }
         
-        .aizonaitarih h3 {
-           margin-left: 200px;
-          
-        }
+       
         
         
         .cinilicamitarih {
             margin-bottom: 50px;
             
         }
-        .cinilicamitarih h3 {
-            margin-left: 250px;
-            
-        }
+       
         
         .cinilicami {
             margin-inline: 30px;
@@ -1147,20 +1505,13 @@ textarea.input-field {
              text-indent: 15px;
          }
          
-         .cinimuzesitarih h3 {
-            margin-left: 250px;
-         
-         }
         
         
          .ulucamitarih {
             margin-bottom: 50px;
             
         }
-        .ulucamitarih h3 {
-            margin-left: 250px;
-            
-        }
+       
         
         .ulucami {
             margin-inline: 30px;
@@ -1179,18 +1530,10 @@ textarea.input-field {
              text-indent: 15px;
          }
          
-         .germiyansokagitarih h3 {
-            margin-left: 250px;
-         
-         }
          
          
          .donenlercamitarih {
              margin-bottom: 50px;
-             
-         }
-         .donenlercamitarih h3 {
-             margin-left: 240px;
              
          }
          
@@ -1210,21 +1553,14 @@ textarea.input-field {
              text-indent: 15px;
          }
          
-         .kutahyakalesitarih h3 {
-            margin-left: 250px;
-         
-         }
+        
          
          
          .arkeolojimuzesitarih {
              margin-bottom: 50px;
              
          }
-         .arkeolojimuzesitarih h3 {
-             margin-left: 230px;
-             
-         }
-         
+        
          .arkeolojimuzesi {
             margin-inline: 30px;
              display: flex;
@@ -1241,21 +1577,14 @@ textarea.input-field {
              text-indent: 15px;
          }
          
-         .frigvadisitarih h3 {
-            margin-left: 250px;
-         
-         }
-         
+        
          
          .domanicormanlaritarih {
              margin-bottom: 50px;
              
          }
         
-         .domanicormanlaritarih h3{
-           
-            margin-left: 220px;
-        }
+        
         
          .domanicormanlari {
              margin-inline: 30px;
@@ -1273,20 +1602,13 @@ textarea.input-field {
              text-indent: 15px;
          }
          
-         .yedigollertarih h3 {
-            margin-left: 250px;
-         
-         }
-         
+        
          
          .donergazinotarih {
              margin-bottom: 50px;
              
          }
-         .donergazinotarih h3 {
-             margin-left: 240px;
-             
-         }
+         
          
          .donergazino {
             margin-inline: 30px;
@@ -1305,21 +1627,13 @@ textarea.input-field {
              text-indent: 15px;
          }
          
-         .camlicatabiatparkitarih h3 {
-            margin-left: 230px;
-         
-         }
-         
+        
          
          .ennebarajitarih {
              margin-bottom: 50px;
              
          }
-         .ennebarajitarih h3 {
-             margin-left: 250px;
-             
-         }
-         
+        
          .ennebaraji {
             margin-inline: 30px;
              display: flex;
@@ -1337,20 +1651,13 @@ textarea.input-field {
              text-indent: 15px;
          }
          
-         .eynalkaplicalaritarih h3 {
-            margin-left: 225px;
-         
-         }
-         
+        
          
          .yoncalitermaloteltarih {
              margin-bottom: 50px;
              
          }
-         .yoncalitermaloteltarih h3 {
-             margin-left: 220px;
-             
-         }
+         
          
          .yoncalitermalotel {
             margin-inline: 30px;
@@ -1359,6 +1666,173 @@ textarea.input-field {
              gap: 20px;
              text-indent: 15px;
          }
+         /******ilçe ve köyler**************/
+
+.ilcelerbaslik {
+    display: inline-block;
+     width: 100%;
+     font-size: 25px;
+     text-align: center;
+     margin-bottom: 40px; 
+ }
+ 
+ 
+ .koyler {
+     padding: 30px;
+     
+   }
+ 
+ .ilceler {
+     display: flex;
+     /* gap: 60px; */
+     width: 1250px;
+     background:#20202f;
+     border-radius: 30px;
+     box-shadow: 0 0 20px 0 #fff;
+     align-items: center;
+     list-style: none;
+     margin-left: 120px;
+     margin-bottom: 50px;
+     padding: 30px;
+  
+ 
+ }
+ 
+ 
+ .ilceler ul {
+     display: flex;
+     margin: 0 10px;
+ }
+ 
+     .ilceler  ul li:before {
+ 
+     background-color: #000000;
+     background-size: cover;
+     content: '';
+     height: 200px;
+     left: -65px;
+     opacity: 0;
+     position: absolute;
+     top: -90px;
+     transform: translateY(100px);
+     transition: opacity 0.5s ease, transform 0.5s ease;
+     width: 200px;
+     z-index: -1;
+ }
+ 
+ .ilceler ul li:hover:before {
+   
+     transform: translateY(0);
+     transition-delay: 0.5s;
+ }
+ 
+ .ilceler ul li {
+     list-style: none;
+     margin: 0 10px;
+     position: relative;
+ }
+ 
+ .ilceler ul li a {
+     display: block;
+     font-size: 16px;
+     font-weight: 600;
+     height: 20px;
+     overflow: hidden;
+     position: relative;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+ 
+ 
+ .ilceler ul li a span {
+     color: #ffffff;
+     display: block;
+     height: 100%;
+     transition: transform 0.5s ease;
+     width: 100%;
+ }
+ 
+ /*************************/
+
+         .meshurlezzetler {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin-right: 60px;
+            column-gap: 40px;
+            width: 90%;
+            margin-left: 38px;
+            margin-bottom: 40px;
+          }
+          
+          .yemekbaslik {
+            
+            font-size: 30px;
+            
+          }
+           
+          .meshurlezzetler {
+            & img {
+                width:500px;
+                height:300px;}
+          }
+          
+          .sinimantisi , .cimcik, .sibit, .dolamber, .hashasli,
+          .ilibada, .tirit, .gokcumen, .sıkıcık, .tosunum, .tarhana, .kupkebab,
+          .dovmec, .govec, .incirtatli,.yufkatatlisi, .gelincikvegul, .hosaf{
+            position: relative;
+            width: 100%;
+            margin-bottom: 20px; }
+          
+         
+          
+         .imagee {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 40px;
+            margin-left: 30px;
+            border: 4px solid #ddd;
+          }
+          
+         .overlayy {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #52bdb6;
+            border-radius: 40px;
+            margin-left: 30px;
+          }
+          .sinimantisi:hover .overlayy,.cimcik:hover .overlayy,.sibit:hover .overlayy,.dolamber:hover .overlayy ,.hashasli:hover .overlayy,.ilibada:hover .overlayy, .tirit:hover .overlayy,.gokcumen:hover .overlayy,.tosunum:hover .overlayy
+          ,.sıkıcık:hover .overlayy,.tarhana:hover .overlayy,.kupkebab:hover .overlayy,.dovmec:hover .overlayy ,.govec:hover .overlayy,.incirtatli:hover .overlayy,.yufkatatlisi:hover .overlayy,.gelincikvegul:hover .overlayy,.hosaf:hover .overlayy {
+            opacity: 1;
+            border-radius: 40px;
+            margin-left: 30px;
+            height: 100%;
+            width: 100%;
+          }
+        
+        .textt {
+            color: white;
+            font-size: 30px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+          }
+        
+        
+        
+        
+        /******************/
+
+
         .header {
             
            

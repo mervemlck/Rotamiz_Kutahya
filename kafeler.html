@@ -1,278 +1,394 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="assests/img/vase.ico" type="image/x-icon" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kafeler</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assests/css/reset.css">
-<link rel="stylesheet" href="assests/css/kafe.css">
-    <script src="assests/js/rota.js" defer></script>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="assests/img/vase.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kafeler</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Nunito:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assests/css/reset.css">
+  <link rel="stylesheet" href="assests/css/kafe.css">
+  <script src="assests/js/rota.js" defer></script>
 </head>
+
 <body>
-     <div class="container">
-        <div class="hero">
-   
-            <div id="myNav" class="overlay">
-                <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="overlay-content">
-                    <a href="tarih.html" class="menu" >Kütahya'nın Tarihi</a>
-                    <a href="rotalar.html" class="menu">Tarihi Rotalar</a>
-                    <div class="faqmenu">
-                        <div class="faq-content-menu">
-                            <!--faq-->
-                            <details>
-                                <summary>Çini Ve Porselen</summary>
-                                <div class="faq-inside-menu">
-                                    <a href="ciniveporselen.html "  class="altbaslik menu">Çini</a>
-                                    <a href="ciniveporselen.html" class="altbaslik menu">Porselen</a>
-                            </details>
-                            <!--faq end-->
-                            <!--faq-->
-                            <details>
-                                <summary>Yemek</summary>
-                                <div class="faq-inside-menu">
-                                   <a href="yemek.html" class="altbaslik menu">Meşhur Lezzetler</a>
-                                   <a href="yemek.html" class="altbaslik menu">Nerede yemelisin?</a>
-                            </details>
-                            <!--faq end-->
-                            <!--faq-->
-                            <details>
-                                <summary>Folklor</summary>
-                                <div class="faq-inside-menu">
-                                 <a href="folklor.html" class="altbaslik menu">Yöresel Kıyafetler</a>
-                                 <a href="folklor.html" class="altbaslik menu">Türküler</a>
-                            </details>
-                            <!--faq end-->
-                         </div>
-                    </div>
-                    <a href="koyler.html" class="menu">İlçe ve Köyler</a>
-                    <a href="universite.html" class="menu">Dumlupınar Üniversitesi</a>
-                    <a href="kafeler.html" class="menu">Kafeler</a>
-                    <a href="ulasim.html" class="menu">Ulaşım</a>
-                    <a href="yasam.html" class="menu">Kütahya'da Yaşam ve İklim</a>
-                    <a href="galeri.html" class="menu">Galeri</a>
-                    <a href="index.html" class="menu">Yorum ve Öneriler</a>
-                    <a href="index.html" class="menu ">İletişim</a>
+  <div class="container">
+    <div class="hero">
 
-
-
-
-
-                </div>
-              </div>
-            <div class="header">
-                <a href="index.html"><img src="assests/img/rotamız.jpg" alt="" class="rimg"></a>
-                <a href="index.html"><img src="assests/img/rotamızresponsive.jpg" class="responimg"></a>
-                <!-- <div class="headermid">
-                    <li><a href="#">Menü</a></li>
-                    <li><a href="#">Bize Yazın</a></li>
-                    <li><a href="#">S.S.S</a></li>
-                    <li><a href="#">İletişim</a></li>
-
-                </div> -->
-                <div class="headermid">
-                    <ul>
-                        <li><a href="index.html">
-                        <span>ANASAYFA </span>
-                        <span> ANASAYFA</span> </a></li>
-                        
-                        <li><a href="#bizeyaz">
-                        <span>BİZE YAZIN</span>
-                        <span>BİZE YAZIN</span> </a> </li>
-                        
-                        <li><a href="#sss">
-                        <span>S.S.S </span>
-                        <span> S.S.S</span></a></li>
-                        
-                        <li> <a href="#iletisim">
-                        <span>İLETİŞİM</span>
-                        <span>İLETİŞİM </span></a> </li>
-                     </ul>
-                </div>
-
-                <span class="headerright">
-                    <a href="#" class="btn">Giriş yap</a>
-                    <a href="#" class="btn">Üye Ol</a>
-                    <a href="#" class="hamburgermenu" onclick="openNav()">&#9776;</a>
-                </span>
-        </div>
-        </div>
-      
-   
-        <h2>KAFELER</h2>
-        <div id="myBtnContainer">
-          <button class="btnn active" onclick="filterSelection('all')"> Show all</button>
-          <button class="btnn" onclick="filterSelection('nature')"> Nature</button>
-          <button class="btnn" onclick="filterSelection('cars')"> Cars</button>
-          <button class="btnn" onclick="filterSelection('people')"> People</button>
-        </div>
-        
-        <!-- Portfolio Gallery Grid -->
-        <div class="row">
-          <div class="column nature">
-            <div class="content">
-              <img src="assests/img/7göller.jpg" alt="Mountains" style="width:100%">
-              <h4>Mountains</h4>
-              <p>Lorem ipsum dolor..</p>
-              <a href="#" class="contactbutton">Site Git</a>
+      <div id="myNav" class="overlay">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html" class="menu">Anasayfa</a>
+            <a href="tarih.html" class="menu" >Kütahya'nın Tarihi</a>
+            <a href="rotalar.html" class="menu">Tarihi Rotalar</a>
+            <div class="faqmenu">
+                <div class="faq-content-menu">
+                    <!--faq-->
+                    <details>
+                        <summary>Çini Ve Porselen</summary>
+                        <div class="faq-inside-menu">
+                            <a href="ciniveporselen.html "  class="altbaslik menu">Çini</a>
+                            <a href="ciniveporselen.html" class="altbaslik menu">Porselen</a>
+                    </details>
+                    <!--faq end-->
+                    <!--faq-->
+                    <details>
+                        <summary>Yemek</summary>
+                        <div class="faq-inside-menu">
+                           <a href="meshurlezzetler.html" class="altbaslik menu">Meşhur Lezzetler</a>
+                           <a href="yemekyerleri.html" class="altbaslik menu">Nerede yemelisin?</a>
+                    </details>
+                    <!--faq end-->
+                    <!--faq-->
+                    <details>
+                        <summary>Folklor</summary>
+                        <div class="faq-inside-menu">
+                         <a href="folklor.html" class="altbaslik menu">Yöresel Kıyafetler</a>
+                         <a href="turkuler.html" class="altbaslik menu">Türküler</a>
+                    </details>
+                    <!--faq end-->
+                 </div>
             </div>
-          </div>
-          <div class="column nature">
-            <div class="content">
-              <img src="assests/img/7göller.jpg" alt="Lights" style="width:100%">
-              <h4>Lights</h4>
-              <p>Lorem ipsum dolor..</p>
-              <a href="#" class="contactbutton">Site Git</a>
-            </div>
-          </div>
-          <div class="column nature">
-            <div class="content">
-              <img src="assests/img/7göller.jpg" alt="Nature" style="width:100%">
-              <h4>Forest</h4>
-              <p>Lorem ipsum dolor..</p>
-              <a href="#" class="contactbutton">Site Git</a>
-            </div>
-          </div>
-        
-          <div class="column cars">
-            <div class="content">
-              <img src="assests/img/7göller.jpg" alt="Car" style="width:100%">
-              <h4>Retro</h4>
-              <p>Lorem ipsum dolor..</p>
-              <a href="#" class="contactbutton">Site Git</a>
-            </div>
-          </div>
-          <div class="column cars">
-            <div class="content">
-              <img src="assests/img/7göller.jpg" alt="Car" style="width:100%">
-              <h4>Fast</h4>
-              <p>Lorem ipsum dolor..</p>
-              <a href="#" class="contactbutton">Site Git</a>
-            </div>
-          </div>
-          <div class="column cars">
-            <div class="content">
-              <img src="assests/img/7göller.jpg" alt="Car" style="width:100%">
-              <h4>Classic</h4>
-              <p>Lorem ipsum dolor..</p>
-              <a href="#" class="contactbutton">Site Git</a>
-            </div>
-          </div>
-        
-          <div class="column people">
-            <div class="content">
-              <img src="assests/img/aizonai.jpg" alt="People" style="width:100%">
-              <h4>Girl</h4>
-              <p>Lorem ipsum dolor..</p>
-              <a href="#" class="contactbutton">Site Git</a>
-            </div>
-          </div>
-          <div class="column people">
-            <div class="content">
-              <img src="assests/img/aizonai.jpg" alt="People" style="width:100%">
-              <h4>Man</h4>
-              <p>Lorem ipsum dolor..</p>
-              <a href="#" class="contactbutton">Site Git</a>
-            </div>
-          </div>
-          <div class="column people">
-            <div class="content">
-              <img src="assests/img/aizonai.jpg" alt="People" style="width:100%">
-              <h4>Woman</h4>
-              <p>Lorem ipsum dolor..</p>
-              <a href="#" class="contactbutton">Site Git</a>
-            </div>
-          </div>
-        <!-- END GRID -->
-        </div>
-        
-    
-    
-   
-     <div class="footer">
-        <a name="iletisim"></a>
-        <div class="footertop">
+            <a href="ilcevekoy.html" class="menu">İlçe ve Köyler</a>
+            <a href="universite.html" class="menu">Dumlupınar Üniversitesi</a>
+            <a href="kafeler.html" class="menu">Kafeler</a>
+            <a href="yasam.html" class="menu">Kütahya'da Yaşam ve İklim</a>
+            <a href="galeri.html" class="menu">Galeri</a>
             
-            <span class="flogo">
-                
-            <img class="companylogo" src="assests/img/rotamiz.png" alt="CompanyLogow">
-             <p>Bizce keşfetmek için güzel bir yer..</p>
-            <div class="logos">
-                <a href="https://www.facebook.com/KutahyaValiligi/" ><img src="assests/img/facebook.svg" alt="facebook"></a>
-                <a href="http://www.kutahya.gov.tr/"><img src="assests/img/google.svg" alt="google"></a>
-                <a href="http://www.kutahya.gov.tr/"><img src="assests/img/apple.svg" alt="apple"></a>
-                <a href="https://www.instagram.com/kutahyavaliligi"><img src="assests/img/insta.svg" alt="instagram"></a>
-            </div>
-            </span>
-           
-            
-       
-            
-            
-            <div class="linkscolumAll">
-                <div class="linksColum">
-                    <h4>Menü</h4>
-                    <a href="#">Tarih</a>
-                    <a href="#">Rotalar</a>
-                    <a href="#">Galeri</a>
-                    <a href="#">Çini ve Porselen</a>
-                    <a href="#">Yaşam</a>
-                    <a href="#">Yemek</a>
-                    <a href="#">Folklor</a>
-                    <a href="#">Kafeler</a>
-                    <a href="#">Üniversite</a>
-                    <a href="#">Ulaşım</a>
 
-                    
-                </div>
-                <div class="linksColum">
-                    <h4>Bize Ulaşın</h4>
-                    <a href="#" style="text-decoration: none;">05429896633</a>
-                    <a href="#" style="text-decoration: none;">Adres:<br>Kütahya Belediyesi</a>
-                    <a href="#" style="text-decoration: none;">Mail: <br> fatmanurhco@icloud.com</a>
-                
-                    
-            </div>
-               
-           </div>
-           <div class="top-end-footer">
-                <h4>Tecrübeleriniz Bizim İçin Değerli</h4>
-            <div class="top-end-place">
-                <input type="email" class="search-input" placeholder="example@example.com">
-                <div class="place-icon">
-                    <a href="#" class="">Bize Katıl</a>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="top-end">
-           
-            <div class="top-end-place">
-                <input type="email" class="search-input" placeholder="example@example.com">
-                <div class="place-icon">
-                    <a href="#" class="">Bize Katıl</a>
-                </div>
-            </div>
-        </div>
-                
+
+
+
 
         </div>
-        <!-- -------------------------------------------------------------------- -->
-       <div class="footer-bottom">
-           
-                    <div class="col-sm-5">
-                        <p class="copyright text-uppercase">© 2023 Rotamızkütahya. All Rights Reserved.
-                        </p>
-                    </div>
-                
-            </div>
-      
-        <!-- -------------------------------------------------------------------- -->
+      </div>
+      <div class="header">
+        <a href="index.html"><img src="assests/img/rotamız.jpg" alt="" class="rimg"></a>
+        <a href="index.html"><img src="assests/img/rotamızresponsive.jpg" class="responimg"></a>
 
-     </div>
+        <div class="headermid">
+          <ul>
+            <li><a href="index.html">
+                <span>ANASAYFA </span>
+                </a></li>
+
+
+            <li> <a href="#iletisim">
+                <span>İLETİŞİM</span>
+                </a> </li>
+          </ul>
+        </div>
+
+        <span class="headerright">
+          <a href="login.html" class="btn">Giriş yap</a>
+          <a href="uyeol.html" class="btn">Üye Ol</a>
+          <a href="#" class="hamburgermenu" onclick="openNav()">&#9776;</a>
+        </span>
+      </div>
+    </div>
+<hr>
+    <div class="kafeh2"><h2>KAFELER</h2></div>
+
+    <!-- <span class="kafeh2"><h2>KAFELER</h2></span> -->
+    <div id="myBtnContainer" class="myBtnContainer">
+      <button class="btnn active" onclick="filterSelection('all')">Tüm Kafeler</button>
+      <button class="btnn" onclick="filterSelection('ders')"> Ders</button>
+      <button class="btnn" onclick="filterSelection('sohbet')"> Sohbet</button>
+      <button class="btnn" onclick="filterSelection('tatli')"> Tatlı</button>
+      <button class="btnn" onclick="filterSelection('oyun')"> Oyun</button>
+      <button class="btnn" onclick="filterSelection('yemek')"> Yemek</button>
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column ders sohbet">
+        <div class="content">
+          <img src="assests/img/tschibo.jpg" alt="Mountains" style="width:100%">
+          <h2>Rise&Shine Tchibo</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Farklı tip masa ve oturma grupları sayesinde size daha konforlu bir ortam sağlar."</i></p>
+            <a href="https://tr.foursquare.com/v/riseshine-premium-coffee-tchibo/5c8d3a5144f41900250a32fe"
+            class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column sohbet ders tatli">
+        <div class="content">
+          <img src="assests/img/sebao.jpg" alt="Lights" style="width:100%">
+          <h2>Sebao</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Küçük,samimi ortamı ve tatlı çeşitliliğiyle size her türlü imkanı sağlar."</i></p>
+          <a href="https://www.instagram.com/sebaoturkiye/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column sohbet ">
+        <div class="content">
+          <img src="assests/img/botanica.jpeg" alt="Nature" style="width:100%">
+          <h2>Botanica</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Ahşap ve bitki ağırlıklı dizaynıyla size daha ferah ve sakin hissettirir."</i></p>
+          <a href="https://nicelocal.biz.tr/kutahya/restaurants/botanica_coffee_co/" class="contactbutton">Siteye
+            Git</a>
+        </div>
+      </div>
+      <p><i></i></p>
+      <div class="column sohbet oyun yemek">
+        <div class="content">
+          <img src="assests/img/spross.jpg" alt="Car" style="width:100%">
+          <h2>Spross</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Farklı amaçlar için tasarlanmış çeşitli dizaynıyla aynı ortamda size farklı yerlerde gibi hissettirir."</i></p>
+          <a href="https://www.instagram.com/sprossturkiye/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column sohbet">
+        <div class="content">
+          <img src="assests/img/blanca.jpg" alt="Car" style="width:100%">
+          <h2>Blanca</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Fiyat açısından daha ekonomik olması sebebiyle öğrencilerin tercih etme sebeplerinden biridir."</i></p>
+          <a href="https://www.instagram.com/blanca_garden?igsh=YzVkODRmOTdmMw==" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column ders sohbet ">
+        <div class="content">
+          <img src="assests/img/mac.jpg" alt="Car" style="width:100%">
+          <h2>Mackbear Coffee Co.</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Büyüklüğü sayesinde ders çalışmak ve sohbet etmek için kendi içinde farklı ortamlara ayrılmıştır."</i></p>
+          <a href="https://www.facebook.com/mackbearcoffeecokutahya/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+
+      <div class="column sohbet oyun tatli yemek">
+        <div class="content">
+          <img src="assests/img/gülnihal.jpg" alt="People" style="width:100%">
+          <h2>Gülnihal</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Yemek yemekten oyun oynamaya kadar her türlü olanağı size sunar."</i></p>
+          <a href="https://www.instagram.com/gulnihalcoffee/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column sohbet oyun  ">
+        <div class="content">
+          <img src="assests/img/motto.jpg" alt="People" style="width:100%">
+          <h2>Motto</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Daha çok oyun oynamak için tercih edebileceğiniz bu kafe size aynı zamanda tatlı ve içecek çeşitliliği sunar."</i></p>
+          <a href="https://www.instagram.com/mottokutahya?utm_medium=copy_link" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column sohbet">
+        <div class="content">
+          <img src="assests/img/colombiaa.jpg" alt="People" style="width:100%">
+          <h2>Colombia</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Lezzetli kahveleriyle size ve arkadaşlarınıza rahat bir ortam yaratır."</i></p>
+         <a href="https://www.colombiacoffeetr.com.tr/en/store/3/colombia-coffee-kutahya" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column tatli sohbet">
+        <div class="content">
+          <img src="assests/img/beyoğlu.jpg" alt="People" style="width:100%">
+          <h2>1983 Beyoğlu</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Lezzetli tatlıları ve meşhur çikolatasıyla size eşsiz ve kaçırmak istemeyeceğiniz bir tat sunar."</i></p>
+          <a href="https://www.instagram.com/1983beyoglu/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column tatli sohbet">
+        <div class="content">
+          <img src="assests/img/boston.jpeg" alt="People" style="width:100%">
+          <h2>Boston</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Markalaşmış tatlı çeşitliliğiyle size unutulmaz lezzetler ve görsel bir şölen sunar."</i></p>
+    <a href="https://www.bostondd.com/subeler/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column sohbet">
+        <div class="content">
+          <img src="assests/img/pasaj.jpg" alt="People" style="width:100%">
+          <h2>Pasaj 1980</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Eskiyi özlem duyanların ve nosyalji sevenlerin kaçırmak istemeyecekleri bir mekan."</i></p>
+          <a href="https://www.instagram.com/pasaj1980/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column ders sohbet">
+        <div class="content">
+          <img src="assests/img/company.jpg" alt="People" style="width:100%">
+          <h2>The Company</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Arkadaşlarınızla sohbet etmek ve ders çalışmak için ideal bir yerdir."</i></p>
+          <a href="https://www.instagram.com/thecompanycoffeetr/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column yemek sohbet tatli">
+        <div class="content">
+          <img src="assests/img/peron.jpg" alt="People" style="width:100%">
+          <h2>Peron</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Canlı müziğiyle size ve arkadaşlarınıza güzel ve eğlenceli bir ortam sunar."</i></p>
+          <a href="https://www.facebook.com/CafePeron43/?locale=tr_TR" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column yemek">
+        <div class="content">
+          <img src="assests/img/green.jpg" alt="People" style="width:100%">
+          <h2>Green Cafe House</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Farklı tarzı ve özel lezzetleriyle sizin güzel bir deneyim yaşamanızı sağlar."</i></p>
+          <a href="https://www.instagram.com/greencafehouse/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column sohbet">
+        <div class="content">
+          <img src="assests/img/kahve.jpg" alt="People" style="width:100%">
+          <h2>Kahverengi Kültür-Sanat</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Küçük masalarından dolayı birebir sohbet için daha uygundur ve kitaplarla iç içe bir kafedir."</i></p>
+          <a href="https://www.instagram.com/kahverengikultursanat/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column ders sohbet">
+        <div class="content">
+          <img src="assests/img/why.jfif" alt="People" style="width:100%">
+          <h2>Whynot</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Güzel dizaynı ve akılda kalan içecekleriyle mutlaka gitmeniz gereken yerlerden biri."</i></p>
+          <a href="https://www.instagram.com/whynotcafekutahya/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column oyun ">
+        <div class="content">
+          <img src="assests/img/garden.jpg" alt="People" style="width:100%">
+          <h2>Garden Hall</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Yerin altında olan ve daha çok oyun oynamak için gidebileceğiniz yerlerden biridir."</i></p>
+          <a href="https://www.instagram.com/gardenhallcafe/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column yemek sohbet">
+        <div class="content">
+          <img src="assests/img/irish.jpg" alt="People" style="width:100%">
+          <h2>Irish</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Tasarımı ve konumu dolasıyla farklı bir yerde gibi hissettirir ve sakin bir yerdir."</i></p>
+          <a href="https://www.instagram.com/irishcoffeekutahya/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column tatli yemek">
+        <div class="content">
+          <img src="assests/img/inci.jpg" alt="People" style="width:100%">
+          <h2>İnci Lounge</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Lezzetli yemekleri ve göz alıcı tatlılarıyla dikkat çeken bir mekandır."</i></p>
+          <a href="https://siyahinci.com.tr/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column yemek sohbet">
+        <div class="content">
+          <img src="assests/img/teras.jpg" alt="People" style="width:100%">
+          <h2>Teras</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Dağda kayak keyfi yaptıktan sonra soluklanabileceğiniz eşşiz manzaralı ve huzurlu bir yerdir."</i></p>
+          <a href="https://muratdagi.gediz.bel.tr/teras-cafe-restoran" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column tatli sohbet">
+        <div class="content">
+          <img src="assests/img/luja.jpg" alt="People" style="width:100%">
+          <h2>Luja</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Küçük ve şık tasarımı sayesinde daha sakin bir ortam sunar ve tatlılarıyla size güzel bir deneyim yaşatır."</i></p>
+          <a href="https://luja-coffeemore.business.site/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column sohbet yemek">
+        <div class="content">
+          <img src="assests/img/collesium.jpg" alt="People" style="width:100%">
+          <h2>Collesium</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Sessiz sohbetler için daha uygun bir yerdir ve dış tasarımıyla dikkat çeker."</i></p>
+          <a href="https://www.instagram.com/collesiumcastle/" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <div class="column ders sohbet">
+        <div class="content">
+          <img src="assests/img/gloria.jpg" alt="People" style="width:100%">
+          <h2>Gloria Jean's</h2>
+          <p style="color: rgb(202, 200, 200);"><i>"Kalabalık arkadaş grupları için ideal bir ortama sahiptir ve üniversite öğrencilerine çeşitli kampanyalar sunar."</i></p>
+          <a href="https://tr.foursquare.com/gloriaje2549476" class="contactbutton">Siteye Git</a>
+        </div>
+      </div>
+      <!-- END GRID -->
+    </div>
+
+
+    <hr>
+
+    <div class="footer">
+      <a name="iletisim"></a>
+      <div class="footertop">
+
+        <span class="flogo">
+
+          <img class="companylogo" src="assests/img/rotamiz.png" alt="CompanyLogow">
+          <p>Bizce keşfetmek için güzel bir yer..</p>
+          <div class="logos">
+            <a href="https://www.facebook.com/KutahyaValiligi/"><img src="assests/img/facebook.svg" alt="facebook"></a>
+            <a href="http://www.kutahya.gov.tr/"><img src="assests/img/google.svg" alt="google"></a>
+            <a href="http://www.kutahya.gov.tr/"><img src="assests/img/apple.svg" alt="apple"></a>
+            <a href="https://www.instagram.com/kutahyavaliligi"><img src="assests/img/insta.svg" alt="instagram"></a>
+          </div>
+        </span>
+
+
+
+
+
+        <div class="linkscolumAll">
+          <div class="linksColum">
+            <h4>Menü</h4>
+            <a href="#">Tarih</a>
+            <a href="#">Rotalar</a>
+            <a href="#">Galeri</a>
+            <a href="#">Çini ve Porselen</a>
+            <a href="#">Yaşam</a>
+            <a href="#">Yemek</a>
+            <a href="#">Folklor</a>
+            <a href="#">Kafeler</a>
+            <a href="#">Üniversite</a>
+            <a href="#">Ulaşım</a>
+
+
+          </div>
+          <div class="linksColum">
+            <h4>Bize Ulaşın</h4>
+            <a href="#" style="text-decoration: none;">05429896633</a>
+            <a href="#" style="text-decoration: none;">Adres:<br>Kütahya Belediyesi</a>
+            <a href="#" style="text-decoration: none;">Mail: <br> fatmanurhco@icloud.com</a>
+
+
+          </div>
+
+        </div>
+        <div class="top-end-footer">
+          <h4>Tecrübeleriniz Bizim İçin Değerli</h4>
+          <div class="top-end-place">
+            <input type="email" class="search-input" placeholder="example@example.com">
+            <div class="place-icon">
+              <a href="#" class="">Bize Katıl</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top-end">
+
+        <div class="top-end-place">
+          <input type="email" class="search-input" placeholder="example@example.com">
+          <div class="place-icon">
+            <a href="#" class="">Bize Katıl</a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <hr>
+    <!-- -------------------------------------------------------------------- -->
+    <div class="footer-bottom">
+
+      <div class="col-sm-5">
+        <p class="copyright text-uppercase">© 2023 Rotamızkütahya. All Rights Reserved.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- -------------------------------------------------------------------- -->
+    <hr>
+  </div>
 </body>
+
 </html>
